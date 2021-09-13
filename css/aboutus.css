@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+}
+.pad {
+  padding: 30px 50px 20px 50px;
+}
+.para {
+  padding: 30px;
+  margin: 30px;
+}
+@media screen and (max-width: 600px) {
+  .pad {
+    padding: 3px;
+  }
+  .para {
+    padding: 1px;
+    margin: 2px;
+  }
+  .dis{
+    display:inline-block;
+  }
+}

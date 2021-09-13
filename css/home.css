@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+.home {
+  display: flex;
+}
+.pad {
+  padding: 20px 50px 0px 50px;
+}
+@media screen and (max-width: 600px) {
+  .home {
+    display: inline;
+  }
+  .home-image {
+    height: auto;
+    width: 250px;
+  }
+  .pad {
+    padding: 2px;
+  }
+}
